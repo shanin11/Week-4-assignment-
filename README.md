@@ -101,8 +101,8 @@ The plots of all the echoes, sea ice cluster echoes and lead echoes are shown be
 ![Sea](sea_ice_clusters_echos.png)
 ![lead](lead_clusters_echos.png)
 The shape of the echo waveform depends on surface type:
-* Sea Ice: A rough, uneven surface produces a broader, more spread-out echo.
-* Lead: A smooth, flat surface produces a stronger, sharper echo.
+* Sea Ice - A rough, uneven surface produces a broader, more spread-out echo.
+* Lead - A smooth, flat surface produces a stronger, sharper echo.
 
 We can see these patterns in the echo plots above and the average echo plot below.
 ![Mean](average_echo_shape.png)
@@ -111,10 +111,10 @@ We can see these patterns in the echo plots above and the average echo plot belo
 ### Standard Deviation Analysis
 ![STD](std_dev_echo_shape.png)
 The standard deviation shows how much the waveforms vary around the mean.
-* Sea ice: The standard deviation is relatively low and smooth. There is a moderate peak around the main echo return, but variability remains small beyond this region.
-* Lead: The standard deviation shows a sharp and high peak around the main return. Variability is significantly larger at the peak, reflecting fluctuations in surface smoothness.
+* Sea ice - The standard deviation is relatively low and smooth. There is a moderate peak around the main echo return, but variability remains small beyond this region.
+* Lead - The standard deviation shows a sharp and high peak around the main return. Variability is significantly larger at the peak, reflecting fluctuations in surface smoothness.
 
-These findings also demonstrates why GMM is well-suited for this task: it explicitly models variance, whereas K-means may struggle to capture differences in variability between clusters.
+These findings also demonstrates why GMM is well-suited for this task, it explicitly models variance, whereas K-means may struggle to capture differences in variability between clusters.
 
 Comparing the mean and standard deviation waveforms provides a clearer understanding of the distinguishing features between sea ice and leads, which is crucial for reliable classification.
 
