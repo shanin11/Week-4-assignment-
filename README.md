@@ -58,6 +58,28 @@ Gaussian Mixture Models (GMM)
 ### GMM 
 Assumes that the data is generated from a mixture of Gaussian distributions.
 It assigns probabilities to each data point belonging to each cluster — a process known as soft clustering.
+
+   ```sh
+from sklearn.mixture import GaussianMixture
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Sample data
+X = np.random.rand(100, 2)
+
+# GMM model
+gmm = GaussianMixture(n_components=3)
+gmm.fit(X)
+y_gmm = gmm.predict(X)
+
+# Plotting
+plt.scatter(X[:, 0], X[:, 1], c=y_gmm, cmap='viridis')
+centers = gmm.means_
+plt.scatter(centers[:, 0], centers[:, 1], c='black', s=200, alpha=0.5)
+plt.title('Gaussian Mixture Model')
+plt.show()
+
+   ```
 ![GMM](gmm_plot.png)
 
 #### Why Use GMM for Echo Classification?
