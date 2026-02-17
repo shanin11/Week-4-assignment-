@@ -4,7 +4,7 @@ This project explores unsupervised learning methods for classification tasks. Sp
 * Sentinel-2 optical data
 * Sentinel-3 altimetry data
 Although the notebook discusses both datasets, this README focuses primarily on the Sentinel-3 altimetry data.
-Please refer to the full notebook for a comprehensive overview of the complete workflow. You can find this in the main repository (Unit_2_Unsupervised_Learning_Methods.ipynb) . This notebook was built using Google Colab and builds on Chapter1_Unsupervised_Learning_Methods_Michel.ipynb.
+Please refer to the full notebook for a comprehensive overview of the complete workflow. You can find this in the main repository in the file Unit_2_Unsupervised_Learning_Methods.ipynb. This notebook was built using Google Colab and builds on Chapter1_Unsupervised_Learning_Methods_Michel.ipynb.
 
 <!-- TABLE OF CONTENTS -->
 <details>
