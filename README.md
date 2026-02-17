@@ -4,7 +4,7 @@ This project explores unsupervised learning methods for classification tasks. Sp
 * Sentinel-2 optical data
 * Sentinel-3 altimetry data
 Although the notebook discusses both datasets, this README focuses primarily on the Sentinel-3 altimetry data.
-Please refer to the full notebook for a comprehensive overview of the complete workflow.
+Please refer to the full notebook for a comprehensive overview of the complete workflow. You can find this in the main repository (Unit_2_Unsupervised_Learning_Methods.ipynb) . This notebook was built using Google Colab and builds on Chapter1_Unsupervised_Learning_Methods_Michel.ipynb.
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -44,7 +44,8 @@ K-means clustering divides the data into a predefined number of clusters by assi
 Gaussian Mixture Models (GMM)
 ### Gaussian Mixture Models (GMM)
 GMM assumes that the data is generated from a mixture of Gaussian distributions.
-It assigns probabilities to each data point belonging to each cluster — a process known as soft clustering.
+It assigns probabilities to each data point belonging to each cluster, a process known as soft clustering. 
+The code and output for this are shown below.
 
    ```sh
 from sklearn.mixture import GaussianMixture
@@ -84,6 +85,7 @@ A radar altimeter sends a microwave pulse towards the Earth's surface. The pulse
 The shape of the echo waveform depends on surface type:
 * Sea Ice: A rough, uneven surface produces a broader, more spread-out echo.
 * Lead: A smooth, flat surface produces a stronger, sharper echo.
+We can see this result in the plot below.
 ![Mean](average_echo_shape.png)
 
 
