@@ -12,6 +12,7 @@ You can find this in the main repository in the file Unit_2_Unsupervised_Learnin
 <!-- TABLE OF CONTENTS -->
 #### Table of Contents
 <ul>
+  <li><a href="#about-the-project">About The Project</a></li>
   <li><a href="#installation">Installation</a></li>
   <li><a href="#objectives">Objectives</a></li>
 
