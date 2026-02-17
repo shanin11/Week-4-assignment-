@@ -95,7 +95,7 @@ Although both methods can be used for this task, GMM is generally preferred beca
 The differences in echo shape between sea ice and lead can be explained by basic radar physics.
 A radar altimeter sends a microwave pulse towards the Earth's surface. The pulse reflects off either sea ice or open water (lead) and returns to the satellite, which records the returned signal as a waveform (echo).
 ### Echo Shape and Averages
-The plots of all the echoes, sea ice cluser echoes and lead echoes are shown below.
+The plots of all the echoes, sea ice cluster echoes and lead echoes are shown below.
 ![echoes](all_echos.png)
 ![Sea](sea_ice_clusters_echos.png)
 ![lead](lead_clusters_echos.png)
@@ -120,7 +120,8 @@ Comparing the mean and standard deviation waveforms provides a clearer understan
 ### Confusion Matrix
 ![CM](confusion_matrix.png)
 
-This section evaluates classification performance against the official ESA labels and quantifies agreement using accuracy and error metrics
+This confusion matrix plot evaluates classification performance against the official ESA data and provides a quanititative measure of agreement.
+
 
 ## Acknowledgements
 This project is part of an assignment for the GEOL0069 module taught in UCL Earth Sciences Department.
