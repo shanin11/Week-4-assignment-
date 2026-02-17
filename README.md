@@ -14,22 +14,30 @@ You can find this in the main repository in the file Unit_2_Unsupervised_Learnin
 <ul>
   <li><a href="#installation">Installation</a></li>
   <li><a href="#objectives">Objectives</a></li>
-  <li><a href="#overview-of-unsupervised-learning-methods">Overview of Unsupervised Learning Methods</a>
+
+  <li>
+    <a href="#overview-of-unsupervised-learning-methods">
+      Overview of Unsupervised Learning Methods
+    </a>
     <ul>
       <li><a href="#k-means-clustering">K-means Clustering</a></li>
       <li><a href="#gaussian-mixture-models-gmm">Gaussian Mixture Models (GMM)</a></li>
       <li><a href="#why-use-gmm-for-echo-classification">Why Use GMM for Echo Classification</a></li>
     </ul>
   </li>
-  <li><a href="#results">Results</a>
+
+  <li>
+    <a href="#results">Results</a>
     <ul>
       <li><a href="#echo-shape-and-averages">Echo Shape and Averages</a></li>
       <li><a href="#standard-deviation-analysis">Standard Deviation Analysis</a></li>
       <li><a href="#confusion-matrix">Confusion Matrix</a></li>
     </ul>
- <li><a href="#Acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
+  </li>
+
+  <li><a href="#acknowledgements">Acknowledgements</a></li>
+</ul>
+
 
 ## Installation
 You need to install the following packages for this project.
