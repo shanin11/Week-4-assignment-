@@ -32,6 +32,12 @@ You can find this in the main repository in the file Unit_2_Unsupervised_Learnin
   </ol>
 </details>
 
+## Installation
+You need to install the following packages for this project.
+ ```sh
+  !pip install rasterio
+  !pip install netCDF4
+  ```
 
 ## Objectives
 The main objectives of this notebook are to use GMM to:
